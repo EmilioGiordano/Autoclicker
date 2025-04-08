@@ -12,7 +12,8 @@ This is a simple Python script that simulates fast mouse clicks when you hold a 
 To install the libraries, open a terminal or command prompt and run:
 
 ```bash
-pip install keyboard mouse
+pip install keyboard
+pip install mouse
 ```
 
 ## ▶️ How to Use
@@ -30,8 +31,7 @@ python autoclicker.py
 
 ## ⚠️ Notes
 - Be careful using this in games or apps that don't allow automation.
-- If you want to change the key go to the source code and change the 5th line, variable '__tecla_activacion__'
+- You can change the key **`C`** for whatever you want to use. Just go to the source code and change `activation_key` variable value.
 
 ## 📄 License
-
 This project is free to use and share.
