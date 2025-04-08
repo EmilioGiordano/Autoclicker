@@ -12,12 +12,12 @@ def enviar_click():
     time.sleep(0.01)        # Pequeña pausa
     mouse.click('left')
 
-print(f"Script de click rápido iniciado. Mantén presionado '{tecla_activacion}' para activar.")
-print(f"Presiona '{tecla_salida}' para salir del programa.")
+print(f"Script started. Hold '{tecla_activacion}' key to autoshot.")
+print(f"Press '{tecla_salida}' to end the program.")
 
 while True:
     if keyboard.is_pressed(tecla_salida):
-        print("Programa detenido.")
+        print("Program stopped.")
         break
     
     if keyboard.is_pressed(tecla_activacion):
