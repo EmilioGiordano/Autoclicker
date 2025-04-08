@@ -1,7 +1,7 @@
 # Simple Auto Clicker (Python)
 
-This is a simple Python script that simulates fast mouse clicks when you hold a key.
-
+This is a simple Python script that simulates fast mouse clicks when you hold a key. Useful for semiautomatic guns on games. 
+ 
 ## 🔧 Requirements
 
 - Python 3.x
