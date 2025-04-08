@@ -1,27 +1,27 @@
 import keyboard
 import time
 import mouse 
-# Configuración
-tecla_activacion = 'c'  # Tecla que activa el click rápido
-tecla_salida = 'f1'    # Tecla para salir del programa
-velocidad_clicks = 0.05 # Tiempo entre clicks en segundos
 
-def enviar_click():
-    # Esta función simula un click presionando y soltando el botón izquierdo
+# Configuration
+activation_key = 'c'  # You can change these key to whatever is most comfortable for you
+exit_key = 'f1'       # Key to stop the program
+click_speed = 0.05    # Time between clicks in seconds
+
+def send_click():
     mouse.click('left')
-    time.sleep(0.01)        # Pequeña pausa
+    time.sleep(0.01)  
     mouse.click('left')
 
-print(f"Script started. Hold '{tecla_activacion}' key to autoshot.")
-print(f"Press '{tecla_salida}' to end the program.")
+print(f"Script started. Hold '{activation_key}' key to auto-click.")
+print(f"Press '{exit_key}' to stop the program.")
 
 while True:
-    if keyboard.is_pressed(tecla_salida):
+    if keyboard.is_pressed(exit_key):
         print("Program stopped.")
         break
     
-    if keyboard.is_pressed(tecla_activacion):
-        enviar_click()
-        time.sleep(velocidad_clicks)
+    if keyboard.is_pressed(activation_key):
+        send_click()
+        time.sleep(click_speed)
     else:
-        time.sleep(0.01)  # Pequeña pausa para no sobrecargar la CPU
+        time.sleep(0.01)  # Small pause to avoid high CPU usage
