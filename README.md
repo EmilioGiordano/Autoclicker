@@ -1,4 +1,4 @@
-# Simple Auto Clicker (Python)
+# Auto Clicker
 
 This is a simple Python script that simulates fast mouse clicks when you hold a key. Useful for semiautomatic guns on games. 
  
@@ -23,7 +23,7 @@ pip install mouse
 3. Run the script with:
 
 ```bash
-python autoclicker.py
+py autoclicker.py
 ```
 
 4. Hold the **`C`** key to start auto-clicking.
