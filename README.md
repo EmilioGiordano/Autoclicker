@@ -18,8 +18,8 @@ pip install mouse
 
 ## ▶️ How to Use
 
-1. Save the script as `autoclicker.py`.
-2. Open a terminal or command prompt in the folder where the script is.
+1. Clone the repository or save the Python file.
+2. Open a terminal or command prompt in the folder where the file is.
 3. Run the script with:
 
 ```bash
