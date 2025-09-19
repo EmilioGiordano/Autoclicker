@@ -32,6 +32,3 @@ py autoclicker.py
 ## ⚠️ Notes
 - Be careful using this in games or apps that don't allow automation.
 - You can change the key **`C`** for whatever you want to use. Just go to the source code and change `activation_key` variable value.
-
-## 📄 License
-This project is free to use and share.
